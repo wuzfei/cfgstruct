@@ -1,13 +1,13 @@
 package process
 
 import (
-	"common/cfgstruct"
 	"context"
 	"flag"
 	"fmt"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
+	"github.com/wuzfei/cfgstruct/cfgstruct"
 	"github.com/zeebo/structs"
 	"log"
 	"os"

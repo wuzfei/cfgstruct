@@ -2,12 +2,12 @@ package process
 
 import (
 	"bytes"
-	"common/cfgstruct"
 	"flag"
 	"fmt"
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	"github.com/wuzfei/cfgstruct/cfgstruct"
 	"github.com/zeebo/errs"
 	"gopkg.in/yaml.v3"
 	"os"
